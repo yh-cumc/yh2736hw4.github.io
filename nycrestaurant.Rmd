@@ -1,0 +1,50 @@
+---
+title: "NYC Restaurant Inspections"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+library(tidyverse)
+library(viridis)
+library(p8105.datasets)
+library(plotly)
+
+```
+
+## upload and clean the data
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+
+set.seed(1)
+
+data("rest_inspec")
+
+### filter top20 zipcode which has chinese restaurant
+chinese_top20_zipcode <- rest_inspec %>% 
+  filter(
+    boro == "MANHATTAN",
+    is.na(score) != 1,
+    str_detect(cuisine_description, "[Cc][Hh][Ii][Nn][Ee][Ss][Ee]")
+    ) %>% 
+  count(zipcode, sort = TRUE) %>% 
+  top_n(10) %>% 
+  select(zipcode)
+
+
+rest_inspec %>% 
+  filter(
+    is.na(score) != TRUE
+  ) %>% 
+  inner_join(x = ., y = chinese_top20_zipcode, by = "zipcode") %>% 
+  mutate(
+    zipcode = as.character(zipcode),
+    zipcode = fct_reorder(zipcode, score)
+  ) %>% 
+  plot_ly(y = ~score, color = ~zipcode, 
+          type = "box", 
+          colors = "Set2")
+
+```

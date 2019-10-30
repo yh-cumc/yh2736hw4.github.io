@@ -17,6 +17,8 @@ navbar:
       href: https://github.com/yh-cumc/yh2736hw4.github.io
     - text: "About me"
       href: about.html
+    - text: "Home"
+      href: index.html
 
 output:
   html_document:
