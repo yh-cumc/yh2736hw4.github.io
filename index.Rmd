@@ -12,7 +12,7 @@ output:
 If you want to know more about me, please click [here](about.html)
 
 # My Photo
-![](image/flower.jpg)
+![](image/myflower.png)
 
 # *Contact Information*
 ##### _Business Address:_
