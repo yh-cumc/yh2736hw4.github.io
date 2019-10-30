@@ -14,7 +14,7 @@ navbar:
     - icon: fa-envelope fa-lg
       href: mailto:<yongmeihuang2012@gmail.com>
     - icon: fa-github fa-lg
-      href: https://github.com/yh-cumc/ymhwebsite.gio.io
+      href: https://github.com/yh-cumc/yh2736hw4.github.io
     - text: "About me"
       href: about.html
 
