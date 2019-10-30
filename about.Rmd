@@ -9,5 +9,4 @@ output:
 My name is Yongmei Huang. I am graduated from _Harward Univisity_ in 2015. After I graduated
 
 
-
 ![](image/mypicture.jpg)
