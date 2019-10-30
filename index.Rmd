@@ -1,0 +1,74 @@
+---
+title: "My Website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# Hellow! This is Yongmei Huang!
+
+If you want to know more about me, please click [here](about.html)
+
+# My Photo
+![](image/flower.jpg)
+
+# *Contact Information*
+##### _Business Address:_
+          
+          Columbia University College of Physicians and Surgeons
+          Department of Obstetrics and Gynecology
+          Division of Gynecologic Oncology
+          PH 12-11
+          622 West, 168 Street, New York, NY 10032
+          Telephone: (212)305-2242
+          Email address: yh2736@cumc.columbia.edu                                                                               
+
+# *Academic & Professional Experience*
+
+##### _Education_
+          Master of Public Health             Harvard School of Public Health
+                                              Boston, Massachusetts
+                                              Quantitative Method
+                                              M.P.H. (2013-2014)
+
+          Doctorate of Medicine Science       Shanghai Jiao Tong University
+                                              School of Medicine
+                                              Shanghai, P.R.China
+                                              Obstetrics and Gynecology
+                                              (2005-2008)
+
+          Master of Medicine Science          Tongji Medical College
+                                              Wu Han, P.R.China
+                                              Maternal and Child Health (2000-2003)
+
+          Bachelor of Medicine Science        Tongji Medical College
+                                              Wu Han, P.R.China
+                                              Maternal and Child Health (1995-2000)
+
+
+
+##### _Professional Expereince_
+
+
+# *Certification & Trainning*
+
+##### _Medical Certification_
+
+          December 23, 2004                   Medical Certificate in P.R.China
+                                              
+
+          September 01, 2005                  Medicine Practice License in Shanghai
+                                              
+                                              
+          July 10, 2006                       Psychologic counselor
+                                              
+
+          May27, 2007                         Qualification Certificate of  
+                                              of Ob & Gyn in P.R.China
+                                              
+                                              
+
+
+

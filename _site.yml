@@ -1,0 +1,23 @@
++name: "Yongmei Huang Home Page"
+output_dir: "."
+navbar:
+  title: "Yongmei Huang, MD, Phd"
+  right:
+    - text: "My Publish"
+      href: mypublish.html
+    - text: My Homework
+      menu:
+      - text: "My Homework 1"
+        href: airbnb.html 
+      - text: "My Homework 2"
+        href: plotly.html      
+    - icon: fa-envelope fa-lg
+      href: mailto:<yongmeihuang2012@gmail.com>
+    - icon: fa-github fa-lg
+      href: https://github.com/yh-cumc/ymhwebsite.gio.io
+    - text: "About me"
+      href: about.html
+
+output:
+  html_document:
+    theme: cerulean
