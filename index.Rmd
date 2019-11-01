@@ -7,7 +7,7 @@ output:
     theme: cerulean
 ---
 
-# Hellow! This is Yongmei Huang!
+# Hello! This is Yongmei Huang!
 
 If you want to know more about me, please click [here](about.html)
 
@@ -50,6 +50,11 @@ If you want to know more about me, please click [here](about.html)
 
 
 ##### _Professional Expereince_
+          Associate Research Scientis        Columbia University Medical Center
+          
+          Postdoctoral Fellowship            The Population Council
+          
+          Residency training                 International Peace Maternal & Child Health Hospial
 
 
 # *Certification & Trainning*
@@ -62,11 +67,11 @@ If you want to know more about me, please click [here](about.html)
           September 01, 2005                  Medicine Practice License in Shanghai
                                               
                                               
-          July 10, 2006                       Psychologic counselor
+          July 10, 2006                       Psychologic Counselor
                                               
 
-          May27, 2007                         Qualification Certificate of  
-                                              of Ob & Gyn in P.R.China
+          May27, 2007                         Qualification Certificate of Ob&Gyn  
+                                               
                                               
                                               
 

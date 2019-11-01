@@ -7,7 +7,7 @@ output:
     theme: cerulean
 ---
 
-* [Hou SP, Fang AH, Chen QF, Huang YM, Chen OJ, Cheng LN. Termination of second-trimester pregnancy by mifepristone combined with misoprostol versus intra-amniotic injection of ethacridine lactate (Rivanol®): a systematic review of Chinese trials. Contraception. 2011 Sep;84(3):214-23](https://www.ncbi.nlm.nih.gov/pubmed/21843683)
+* [1.Hou SP, Fang AH, Chen QF, Huang YM, Chen OJ, Cheng LN. Termination of second-trimester pregnancy by mifepristone combined with misoprostol versus intra-amniotic injection of ethacridine lactate (Rivanol®): a systematic review of Chinese trials. Contraception. 2011 Sep;84(3):214-23](https://www.ncbi.nlm.nih.gov/pubmed/21843683)
 
 * [2.	Chen QJ, Hou SP, Meads C, Huang YM, Hong QQ, Zhu HP, Cheng LN; EBM-CONNECT Collaboration. Mifepristone in combination with prostaglandins for termination of 10-16 weeks' gestation: a systematic review. Eur J Obstet Gynecol Reprod Biol. 2011 Dec;159(2):247-54](https://www.ncbi.nlm.nih.gov/pubmed/21741747)
 
