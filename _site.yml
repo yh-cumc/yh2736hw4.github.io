@@ -11,12 +11,13 @@ navbar:
       menu:
       - text: "NYC Restaurant Inspections"
         href: yh2736dashboard.html
+    - text: "Professional Network"
+      href: https://www.acog.org/
     - icon: fa-envelope fa-lg
       href: mailto:<yongmeihuang2012@gmail.com>
     - icon: fa-github fa-lg
       href: https://github.com/yh-cumc/yh2736hw4.github.io
-    - text: "Professional Network"
-      href: https://www.acog.org/
+
     - text: "Home"
       href: index.html
 
