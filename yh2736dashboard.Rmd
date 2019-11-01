@@ -62,49 +62,33 @@ Column {data-width=500}
 ### Chart B
 
 ```{r}
-##the number of grades of Donuts in five boro of NYC
-rest_inspec %>% 
+##number of Donuts restaurants by boro and grade
+count_boro_grade <- rest_inspec %>% 
   filter(
     str_detect(cuisine_description, "[Dd][Oo][Nn][Uu][Tt][Ss]"),
     is.na(grade) == FALSE
   ) %>% 
-  group_by(boro, grade) %>% 
-  summarize(
-    n = n()
-  ) %>% 
-  pivot_wider(
-    names_from = "grade",
-    values_from = "n"
-  ) %>% 
-  plot_ly(
-    x = ~boro,
-    y = ~A,
-    type = "bar",
-    name = "Grade A"
-  ) %>% 
-  add_trace(
-    y = ~B,
-    name = "Grade B"
-  ) %>% 
-  add_trace(
-    y = ~C,
-    name = "Grade C"
-  ) %>% 
-  add_trace(
-    y = ~P,
-    name = "Grade P"
-  ) %>% 
-  add_trace(
-    y = ~Z,
-    name = "Grade Z"
-  ) %>% 
+  count(boro, grade)
+
+##number of Donuts restaurants by boro
+count_boro <- left_join(count_boro_grade, count(count_boro_grade,
+                                                boro, 
+                                                wt = n,
+                                                name = 'nn'))
+###percentage bar
+count_boro %>% 
+  mutate(prop = n / nn) %>% 
+  plot_ly(x = ~boro, y = ~prop, color = ~grade) %>% 
+  add_bars() %>% 
   layout(
-    title = list(text = "Fig 2. The Donuts restaurants of grade in five borough of NYC ", x = 0.0, titlefont=list(size=20)),
+    barmode = "stack",
+    title = list(text = "Fig 2. The percentage of grade in NYC five borough's 
+                 Donuts Restaurant", x = 0.0, titlefont=list(size=20)),
     legend = list(y = 0.5),
     xaxis = list(title = "Borough", titlefont=list(size=15)),
-    yaxis = list(title = "Count", titlefont=list(size=15)),
-    barmode = "stack"
+    yaxis = list(title = "Percentage", titlefont=list(size=15))
   )
+
 
 ```
 
