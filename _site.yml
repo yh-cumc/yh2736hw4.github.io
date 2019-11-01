@@ -4,21 +4,25 @@ navbar:
   title: "Yongmei Huang, MD MPH"
   right:
     - text: "About me"
+      icon: fa-info
       href: about.html
     - text: "My Publish"
+      icon: fa-gear
       href: mypublish.html
     - text: My Dashboard
+      icon: fa-bar-chart
       menu:
       - text: "NYC Restaurant Inspections"
         href: yh2736dashboard.html
-    - text: "Professional Network"
-      href: https://www.acog.org/
+    - icon: fa-stack-overflow fa-lg
+      href: https://stackoverflow.com/
     - icon: fa-envelope fa-lg
       href: mailto:<yongmeihuang2012@gmail.com>
     - icon: fa-github fa-lg
       href: https://github.com/yh-cumc/yh2736hw4.github.io
 
     - text: "Home"
+      icon: fa-home
       href: index.html
 
 
