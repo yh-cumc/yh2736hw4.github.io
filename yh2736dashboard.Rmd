@@ -47,7 +47,8 @@ rest_inspec %>%
   mutate(zipcode = fct_reorder(zipcode, score)) %>% 
   plot_ly(x = ~zipcode, y = ~score, color = ~zipcode, type = "box") %>% 
   layout(
-    title = list(text = "Fig 1. The boxplots of restraurant scores by top 10 zip code area with most restraurants in Manhattan ", x = 0.0, titlefont=list(size=20)),
+    title = list(text = "Fig 1. The boxplots of restraurant scores by top 10 zip code area 
+with most restraurants in Manhattan ", x = 0.0, titlefont=list(size=20)),
     legend = list(y = 0.5),
     xaxis = list(title = "ZIP Code", titlefont=list(size=15)),
     yaxis = list(title = "Score", titlefont=list(size=15))
@@ -143,7 +144,7 @@ ggplotly(
     axis.title.y.left = element_text(color="black", 
                            size=8),
     title = element_text(color="black", 
-                           size=10)
+                           size=12)
   ) 
   ) 
 ```
