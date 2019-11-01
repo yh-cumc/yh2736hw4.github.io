@@ -98,8 +98,7 @@ rest_inspec %>%
     name = "Grade Z"
   ) %>% 
   layout(
-    title = list(text = "Fig 2. The grade proportion of Donuts in five borough of NYC ", 
-                 x = 0.0, titlefont=list(size=20)),
+    title = list(text = "Fig 2. The Donuts restaurants of grade in five borough of NYC ", x = 0.0, titlefont=list(size=20)),
     legend = list(y = 0.5),
     xaxis = list(title = "Borough", titlefont=list(size=15)),
     yaxis = list(title = "Count", titlefont=list(size=15)),
