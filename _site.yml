@@ -1,7 +1,7 @@
 +name: "Yongmei Huang Home Page"
 output_dir: "."
 navbar:
-  title: "Yongmei Huang, MD, Phd"
+  title: "Yongmei Huang, MD MPH"
   right:
     - text: "My Publish"
       href: mypublish.html
@@ -17,6 +17,8 @@ navbar:
       href: about.html
     - text: "Home"
       href: index.html
+    - text: "Professional Network"
+      href: https://www.acog.org/
 
 output:
   html_document:
