@@ -1,5 +1,5 @@
 ---
-title: "My Website"
+title: ""
 output: 
   html_document:
     toc: true
@@ -11,7 +11,7 @@ output:
 
 I am currently working at the department of Ob&Gyn as an associate research scientist. My resarch interest is health service and health outcome research in the field of women's health. If you want to know more about me, please click [here](about.html)
 
-# My Photo
+## My Photo
 ![](image/myflower.png)
 
                       
